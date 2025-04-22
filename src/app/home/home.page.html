@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Ma To-Do List</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item *ngFor="let todo of todoService.getTodos()">
+      <ion-checkbox
+        slot="start"
+        [checked]="todo.completed"
+        (ionChange)="todoService.toggleTodo(todo.id)">
+      </ion-checkbox>
+
+      <ion-label [class.completed]="todo.completed">
+        {{ todo.title }}
+      </ion-label>
+
+      <ion-button
+        slot="end"
+        fill="clear"
+        color="danger"
+        (click)="todoService.deleteTodo(todo.id)">
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+
+  <ion-item>
+    <ion-input
+      [(ngModel)]="newTodoTitle"
+      placeholder="Nouvelle tâche..."
+      (keyup.enter)="addTodo()">
+    </ion-input>
+
+    <ion-button
+      slot="end"
+      fill="clear"
+      color="primary"
+      (click)="addTodo()">
+      <ion-icon name="add"></ion-icon>
+    </ion-button>
+  </ion-item>
+</ion-content>
