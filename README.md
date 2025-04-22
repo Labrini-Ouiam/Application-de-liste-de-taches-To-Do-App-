@@ -48,9 +48,6 @@ Ouvre ensuite le projet dans Android Studio pour tester sur un émulateur ou un 
 📸 Aperçu
 
 <img width="374" alt="lidt" src="https://github.com/user-attachments/assets/242b5500-1b45-4dc5-927f-369b26afd716" />
-![image](https://github.com/user-attachments/assets/9254bde0-200e-45b4-8b7b-7ed0e9921806)
-
-
 
 🧑‍💻 Auteur
 Labrini Ouiam
