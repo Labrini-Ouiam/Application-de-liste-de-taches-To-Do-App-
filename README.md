@@ -46,8 +46,9 @@ Ouvre ensuite le projet dans Android Studio pour tester sur un émulateur ou un 
 📱 Interface responsive adaptée aux mobiles
 
 📸 Aperçu
-![image](https://github.com/user-attachments/assets/d84de2c5-4122-4115-8f74-940837a7b993)
+![image](https://github.com/user-attachments/assets/2036a233-8d44-4cc3-83f6-5fc8b143df81)
+
 
 🧑‍💻 Auteur
 Labrini Ouiam
-GitHub : [@Labrini-Ouiam](https://github.com/Labrini-Ouiam)
+GitHub : https://github.com/Labrini-Ouiam 
